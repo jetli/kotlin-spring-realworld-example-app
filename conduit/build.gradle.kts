@@ -74,11 +74,11 @@ tasks.withType<KotlinCompile> {
 	}
 }
 
-tasks.test {
-	outputs.dir(snippetsDir)
-}
+//tasks.test {
+//	outputs.dir(snippetsDir)
+//}
 
-tasks.asciidoctor {
-	inputs.dir(snippetsDir)
-	dependsOn(test)
-}
+//tasks.asciidoctor {
+//	inputs.dir(snippetsDir)
+//	dependsOn(test)
+//}
