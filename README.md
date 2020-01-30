@@ -1,9 +1,10 @@
-# kotlin-springboot-realworld-example-app
+# kotlin-spring-realworld-example-app
 Exemplary real world app built with Kotlin + Sprint Boot
 
 ## Getting started
 
 ```bash
+cd conduit
 ./gradlew bootRun
 ```
 
